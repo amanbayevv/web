@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+body {
+  font-family: 'Varela', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    color: red;
+}
+
+.container {
+    /* display: flex; */
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-left: 10%;
+    background-color: aqua;
+    color: aliceblue;
+}
+.maqs {
+    color: black;
+}
